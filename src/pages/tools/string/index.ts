@@ -1,4 +1,3 @@
-import { tool as stringSlugGenerator } from './slug-generator/meta';
 import { tool as stringHiddenCharacterDetector } from './hidden-character-detector/meta';
 import { tool as stringRemoveDuplicateLines } from './remove-duplicate-lines/meta';
 import { tool as stringRotate } from './rotate/meta';
@@ -48,6 +47,5 @@ export const stringTools = [
   stringEncodeUrl,
   StringDecodeUrl,
   stringUnicode,
-  stringHiddenCharacterDetector,
-  stringSlugGenerator
+  stringHiddenCharacterDetector
 ];

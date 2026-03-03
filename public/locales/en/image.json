@@ -101,5 +101,21 @@
     "description": "Rotate an image by a specified angle.",
     "shortDescription": "Rotate an image easily.",
     "title": "Rotate Image"
+  },
+  "memeGenerator": {
+    "title": "Meme Generator",
+    "description": "Create custom memes with ease. Upload an image, add draggable text, customize fonts, and download your creation.",
+    "shortDescription": "Create and customize your own memes.",
+    "longDescription": "This Meme Generator tool allows you to create classic memes directly in your browser. You can upload any image, add top and bottom text that you can drag into position, and customize the text appearance including font size, color, and outline. Your privacy is protected as all processing happens locally on your device.",
+    "textContent": "Text Content",
+    "topText": "Top Text",
+    "bottomText": "Bottom Text",
+    "styling": "Styling",
+    "fontSize": "Font Size",
+    "textColor": "Text Color",
+    "outlineColor": "Outline Color",
+    "outlineWidth": "Outline Width",
+    "uploadImage": "Upload Image",
+    "downloadMeme": "Download Meme"
   }
 }
