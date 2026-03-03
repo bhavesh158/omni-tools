@@ -1,0 +1,20 @@
+
+> omni-tools@0.1.0 dev
+> vite
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+Re-optimizing dependencies because lockfile has changed
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Port 5173 is in use, trying another one...
+
+  VITE v5.4.20  ready in 1484 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+8:41:15 AM [vite] hmr update /src/pages/tools/image/generic/meme-generator/index.tsx, /node_modules/tailwindcss/tailwind.css
+8:41:15 AM [vite] hmr update /node_modules/tailwindcss/tailwind.css, /src/components/App.tsx, /src/components/ToolLayout.tsx, /src/components/ToolHeader.tsx
+8:41:15 AM [vite] page reload src/pages/tools/image/generic/meme-generator/types.ts
+8:41:15 AM [vite] hmr update /src/pages/tools/image/generic/meme-generator/index.tsx, /node_modules/tailwindcss/tailwind.css
