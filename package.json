@@ -61,6 +61,7 @@
     "js-quantities": "^1.8.0",
     "jspdf": "^3.0.3",
     "jszip": "^3.10.1",
+    "konva": "9.3.6",
     "lint-staged": "^15.4.3",
     "locize": "^4.0.14",
     "lodash": "^4.17.21",
@@ -81,12 +82,13 @@
     "react-helmet": "^6.1.0",
     "react-i18next": "^15.6.0",
     "react-image-crop": "^11.0.7",
-    "react-konva": "^18.2.10",
+    "react-konva": "18.2.10",
     "react-router-dom": "^6.23.1",
     "styled-components": "^6.1.19",
     "tesseract.js": "^6.0.0",
     "type-fest": "^4.35.0",
     "use-deep-compare-effect": "^1.8.1",
+    "use-image": "^1.1.4",
     "yup": "^1.4.0"
   },
   "devDependencies": {
