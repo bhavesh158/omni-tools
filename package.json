@@ -82,7 +82,7 @@
     "react-helmet": "^6.1.0",
     "react-i18next": "^15.6.0",
     "react-image-crop": "^11.0.7",
-    "react-konva": "^18.2.10",
+    "react-konva": "18.2.10",
     "react-router-dom": "^6.23.1",
     "styled-components": "^6.1.19",
     "tesseract.js": "^6.0.0",

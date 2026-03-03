@@ -1,4 +1,3 @@
-
 export type InitialValuesType = {
   topText: string;
   bottomText: string;

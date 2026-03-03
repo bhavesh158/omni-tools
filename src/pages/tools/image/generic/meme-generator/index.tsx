@@ -1,4 +1,3 @@
-
 import { Box, Button, Typography, Slider, Stack } from '@mui/material';
 import React, { useState, useRef, useEffect } from 'react';
 import ToolContent from '@components/ToolContent';
@@ -67,7 +66,9 @@ export default function MemeGenerator({
 
   const handleExport = () => {
     if (stageRef.current) {
-      const dataURL = stageRef.current.toDataURL({ pixelRatio: 1 / displayScale });
+      const dataURL = stageRef.current.toDataURL({
+        pixelRatio: 1 / displayScale
+      });
       const link = document.createElement('a');
       link.download = 'meme.png';
       link.href = dataURL;
@@ -120,7 +121,9 @@ export default function MemeGenerator({
             value={values.strokeColor}
             onColorChange={(v) => updateField('strokeColor', v)}
           />
-          <Typography gutterBottom>{t('memeGenerator.outlineWidth')}</Typography>
+          <Typography gutterBottom>
+            {t('memeGenerator.outlineWidth')}
+          </Typography>
           <Slider
             value={values.strokeWidth}
             min={0}
@@ -159,7 +162,13 @@ export default function MemeGenerator({
                 width: '100%'
               }}
             >
-              <Box sx={{ border: '1px solid #ccc', maxWidth: '100%', overflow: 'hidden' }}>
+              <Box
+                sx={{
+                  border: '1px solid #ccc',
+                  maxWidth: '100%',
+                  overflow: 'hidden'
+                }}
+              >
                 <Stage
                   width={image.width * displayScale}
                   height={image.height * displayScale}
@@ -184,7 +193,9 @@ export default function MemeGenerator({
                       align="center"
                       width={image.width}
                       offsetX={image.width / 2}
-                      onDragEnd={(e) => setTopTextPos({ x: e.target.x(), y: e.target.y() })}
+                      onDragEnd={(e) =>
+                        setTopTextPos({ x: e.target.x(), y: e.target.y() })
+                      }
                     />
                     <Text
                       text={values.bottomText}
@@ -200,7 +211,9 @@ export default function MemeGenerator({
                       align="center"
                       width={image.width}
                       offsetX={image.width / 2}
-                      onDragEnd={(e) => setBottomTextPos({ x: e.target.x(), y: e.target.y() })}
+                      onDragEnd={(e) =>
+                        setBottomTextPos({ x: e.target.x(), y: e.target.y() })
+                      }
                     />
                   </Layer>
                 </Stage>
